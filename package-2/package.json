@@ -1,0 +1,14 @@
+{
+  "name": "package-2",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "unpkg": "dist/ionic.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "license": "MIT"
+}

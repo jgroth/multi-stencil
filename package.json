@@ -1,0 +1,16 @@
+{
+  "name": "multi-stencil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stencil/core": "^1.0.0-alpha.8",
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "build": "cd package-1 && stencil build && cd ../package-2 && stencil build",
+    "start": "http-server"
+  }
+}
